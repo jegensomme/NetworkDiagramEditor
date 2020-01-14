@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/rec">
+        <file>img/add.png</file>
+        <file>img/create new.png</file>
+        <file>img/exit.png</file>
+        <file>img/icon_application.png</file>
+        <file>img/open.png</file>
+        <file>img/save as.png</file>
+        <file>img/save.png</file>
+        <file>img/connectors/blue.png</file>
+        <file>img/connectors/cyan.png</file>
+        <file>img/connectors/darkblue.png</file>
+        <file>img/connectors/darkcyan.png</file>
+        <file>img/connectors/darkgray.png</file>
+        <file>img/connectors/darkgreen.png</file>
+        <file>img/connectors/darkmagenta.png</file>
+        <file>img/connectors/darkred.png</file>
+        <file>img/connectors/darkyellow.png</file>
+        <file>img/connectors/gray.png</file>
+        <file>img/connectors/green.png</file>
+        <file>img/connectors/magenta.png</file>
+        <file>img/connectors/red.png</file>
+        <file>img/connectors/yellow.png</file>
+        <file>img/connector.png</file>
+        <file>img/equipment.png</file>
+        <file>img/connection.png</file>
+        <file>img/explorer.png</file>
+        <file>img/help.png</file>
+    </qresource>
+</RCC>

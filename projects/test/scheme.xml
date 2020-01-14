@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scheme>
+    <equipments>
+        <equipment id="1" x="19" y="-20">
+            <name>eq</name>
+            <description>Название: eq
+ID: 1
+Коннекторы:
+тип: c1, id: 1
+тип: c, id: 2
+тип: c, id: 3
+тип: c, id: 4
+тип: c1, id: 5
+</description>
+            <connectors>
+                <connector id="1" color="17">
+                    <link eq_id="0" conn_id="0">
+                        <name>c1</name>
+                        <description>c1</description>
+                    </link>
+                </connector>
+                <connector id="2" color="7">
+                    <link eq_id="2" conn_id="3">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="3" color="7">
+                    <link eq_id="0" conn_id="0">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="4" color="7">
+                    <link eq_id="0" conn_id="0">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="5" color="17">
+                    <link eq_id="0" conn_id="0">
+                        <name>c1</name>
+                        <description>c1</description>
+                    </link>
+                </connector>
+            </connectors>
+        </equipment>
+        <equipment id="2" x="-163" y="-25">
+            <name>eq</name>
+            <description>Название: eq
+ID: 2
+Коннекторы:
+тип: c1, id: 1
+тип: c, id: 2
+тип: c, id: 3
+тип: c, id: 4
+тип: c1, id: 5
+</description>
+            <connectors>
+                <connector id="1" color="17">
+                    <link eq_id="0" conn_id="0">
+                        <name>c1</name>
+                        <description>c1</description>
+                    </link>
+                </connector>
+                <connector id="2" color="7">
+                    <link eq_id="0" conn_id="0">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="3" color="7">
+                    <link eq_id="1" conn_id="2">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="4" color="7">
+                    <link eq_id="0" conn_id="0">
+                        <name>c</name>
+                        <description>c</description>
+                    </link>
+                </connector>
+                <connector id="5" color="17">
+                    <link eq_id="0" conn_id="0">
+                        <name>c1</name>
+                        <description>c1</description>
+                    </link>
+                </connector>
+            </connectors>
+        </equipment>
+    </equipments>
+    <connections>
+        <connection id="1" eqId_first="1" eqId_end="2" connId_first="2" connId_end="3">
+            <point x="29" y="10"/>
+            <point x="-93" y="45"/>
+            <description>ID: 1
+Начало: 
+Название: eq
+ID оборудования: 1
+Тип коннектора: c
+ID коннектора: 2
+Конец: 
+Название: eq
+ID оборудования: 2
+Тип коннектора: c
+ID коннектора: 3</description>
+        </connection>
+    </connections>
+    <connectorTypes>
+        <connector color="7">
+            <name>c</name>
+        </connector>
+        <connector color="17">
+            <name>c1</name>
+        </connector>
+    </connectorTypes>
+    <rules>
+        <rule color1="7" color2="7" bool="true"/>
+        <rule color1="7" color2="17" bool="false"/>
+        <rule color1="17" color2="17" bool="true"/>
+    </rules>
+</scheme>
